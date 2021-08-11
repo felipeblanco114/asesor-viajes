@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/existence-light');
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Existence Light', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header h3 {
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 3rem; 
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+}
+.title {
+    display: block;
+    font-family: 'Existence Light', sans-serif;
+    font-size: 1.7rem;
+    letter-spacing: 0.16rem;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+}
+.title strong {
+    color: rgb(231, 65, 65);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: 'Gotham Light', sans-serif;
+}
+.title:hover strong {
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    letter-spacing: 0.4rem;
+}
+.search-input {
+    font-family: 'Gotham Light', sans-serif;
+}
