@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
 
-const PlaceDetails = () => {
+const PlaceDetails = ({ place }) => {
     return (
         <div>
-            <h2>Place details</h2>
+            <h2>{place.name}</h2>
         </div>
     );
 }
