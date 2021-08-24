@@ -39,9 +39,9 @@ const List = ({ places, childClicked, isLoading, type, rating, setType, setRatin
                         <InputLabel>Rating</InputLabel>
                         <Select value={rating} onChange={(e) => setRating(e.target.value)}>
                             <MenuItem value={0}>Todos</MenuItem>
-                            <MenuItem value=''>3 o más</MenuItem>
-                            <MenuItem value=''>4 o más</MenuItem>
-                            <MenuItem value=''>4.5 o más</MenuItem>
+                            <MenuItem value={3}>3 o más</MenuItem>
+                            <MenuItem value={4}>4 o más</MenuItem>
+                            <MenuItem value={4.5}>4.5 o más</MenuItem>
                         </Select>
                     </FormControl>
 
