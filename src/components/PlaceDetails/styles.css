@@ -1,0 +1,30 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+.list-content h2 {
+  font-family: 'Gotham Light', sans-serif;
+  font-size: 1.2rem;
+}
+.list-box {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: .1px solid rgb(245,245,245);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1ce;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(231, 65, 65);
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 51, 51);
+}
